@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$color-light: #fff;
+$color-black: #000;
+$color-gray: #cfcfcf;
+$purple: rgb(81, 53, 255);
+$color-dark: #121212;
+$color-info: #3498db;
+$color-success: #07bc0c;
+$color-warning: #f1c40f;
+$color-error: #e74c3c;
+$font-family: sans-serif;
+$text-color-light: #757575;
+$spinner-color: #616161;
+$spinner-color-empty-area: #e0e0e0;
+$color-progress-light: linear-gradient(90deg,#4cd964,#5ac8fa,#007aff,#34aadc,#5856d6,#ff2d55);
+$color-progress-dark: #bb86fc;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    background-color: $purple;
+    border: none;
+    padding: 15px 30px;
+    color: $color-light;
+    font-size: 1em;
+}
+
+nav {
+    background-color: $color-dark;
+    background-image: url('https://www.cinnamon.agency/images/noise.png');
+    color: $color-light;
+
+    .nav-bar {
+      max-width: 1168px;
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      align-items: center;
+
+      a {
+        text-decoration: none;
+        color: $color-light;
+        font-size: 1.5em;
+        font-weight: 700;
+      }
+
+      ul {
+        display: flex;
+        align-items: center;
+
+        li {
+            list-style: none;
+            font-weight: 600;
+            margin-left: 2em;
+          }
+      }
+
+      .play {
+        width: 50px;
+      }
+    }
+}
+
+.container {
+    max-width: 1168px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: $color-dark;
+    background-image: url('https://www.cinnamon.agency/images/noise.png');
+    color: $color-light;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    min-height: 650px;
+
+
+    h1 {
+        font-size: 4.5em;
+        font-weight: 900;
+        line-height: 1.4;
+    }
+
+    .header-p {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        min-height: 244px;
+
+        .see-p {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            p {
+              font-weight: 500;
+              font-size: 20px;
+              max-width: 670px;
+              line-height: 1.8;
+              color: $color-gray;
+            }
+
+            a {
+                align-self: flex-start;
+                left: -30px;
+                text-decoration: none;
+                color: $color-light;
+                transform-origin: 50px 50px;
+                transform: rotate(-90deg);
+                -webkit-transform: rotate(-90deg);
+                -moz-transform: rotate(-90deg);
+            }
+        }
+
+        .header-img {
+            background-color: $color-black;
+            width: 164px;
+            height: 164px;
+            border-radius: 50%;
+            box-shadow: 0 3px 30px -10px $purple;
+            display: flex;
+            align-self: flex-end;
+
+            img {
+                width: 164px;
+                height: 151px;
+            }
+        }
+    }
+}
+
+.work {
+    img {
+        max-width: 517px;
+    }
+}
+
+
+.our-services {
+    background-color: $color-dark;
+    background-image: url('https://www.cinnamon.agency/images/noise.png');
+    color: $color-light;
+}
+
+.their-team {
+    background-image: url('');
+}
+
+.growing {
+    background-color: $color-black;
+    color: $color-light;
+}
+
+.stay {
+    img {
+        max-width: 517px;
+    }
+}
+
+footer {
+    background-color: $color-dark;
+    background-image: url('https://www.cinnamon.agency/images/noise.png');
+    color: $color-light;
+}
