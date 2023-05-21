@@ -3,4 +3,4 @@ In this project, I develop the clone of cinnamon website with tailwindCSS, CSS g
 
 🚀 Live Link 🚀
 
-[Cinnamon](https://samtush.github.io/cinnamon-clone/)
+- [Cinnamon](https://samtush.github.io/cinnamon-clone/)
