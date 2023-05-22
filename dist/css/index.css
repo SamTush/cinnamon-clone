@@ -71,8 +71,8 @@ header {
   color: #fff;
   display: flex;
   flex-direction: column;
-  padding-top: 60px;
-  min-height: 650px;
+  padding-top: 190px;
+  min-height: 790px;
 }
 header h1 {
   font-size: 4.5em;
