@@ -41,6 +41,8 @@ nav {
     background-color: $color-dark;
     background-image: url('https://www.cinnamon.agency/images/noise.png');
     color: $color-light;
+    position: fixed;
+    width: 100vw;
 
     .nav-bar {
       max-width: 1168px;
@@ -71,6 +73,16 @@ nav {
       .play {
         width: 50px;
       }
+    }
+}
+
+nav.scrolled {
+    background-color: $color-light;
+    background-image: none;
+    color: $color-black;
+
+    a {
+        color: $color-black;
     }
 }
 
