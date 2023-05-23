@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@700&display=swap');
 
 $color-light: #fff;
 $color-black: #000;
@@ -40,7 +41,7 @@ button {
 nav {
     background-color: $color-dark;
     background-image: url('https://www.cinnamon.agency/images/noise.png');
-    color: $color-light;
+    color: $color-gray;
     position: fixed;
     width: 100vw;
 
@@ -54,7 +55,7 @@ nav {
 
       a {
         text-decoration: none;
-        color: $color-light;
+        color: $color-gray;
         font-size: 1.5em;
         font-weight: 700;
       }
@@ -105,6 +106,7 @@ header {
         font-size: 4.5em;
         font-weight: 900;
         line-height: 1.4;
+        color: $color-gray;
     }
 
     .header-p {
@@ -130,7 +132,7 @@ header {
                 align-self: flex-start;
                 left: -30px;
                 text-decoration: none;
-                color: $color-light;
+                color: $color-gray;
                 transform-origin: 50px 50px;
                 transform: rotate(-90deg);
                 -webkit-transform: rotate(-90deg);
@@ -290,7 +292,85 @@ header {
 }
 
 .their-team {
-    background-image: url('');
+    // background-image: url('data:image/png;base64,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');
+    // background-repeat: no-repeat;
+    // background-size: 90px;
+    // background-position-y: 130px;
+
+    .their-main-div {
+        max-width: 1120px;
+        display: flex;
+        margin: 0 auto;
+        gap: 150px;
+    }
+
+    h2 {
+        font-size: 2.3em;
+        font-weight: 800;
+        max-width: 600px;
+    }
+
+    p {
+        max-width: 650px;
+        margin-top: 35px;
+    }
+
+    .profile {
+        gap: 20px;
+
+        img {
+            width: 68px;
+        }
+
+        h4 {
+            font-size: 1.3em;
+            margin-bottom: 7px;
+        }
+    }
+
+    .arrows {
+        display: flex;
+        gap: 50px;
+        margin-top: 30px;
+        
+        img {
+            width: 48px;
+        }
+    }
+
+    .their-team-div {
+        padding: 180px 0;
+    }
+
+    .their-team-icon {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .company-icon {
+          width: 200px;
+        }
+
+        .view-case {
+            margin-top: 150px;
+            display: flex;
+
+            img {
+                margin-right: 10px;
+            }
+
+            h5 {
+                color: $purple;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.who {
+    background-color: $color-gray-light;
 }
 
 .growing {
