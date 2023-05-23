@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@700&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -238,8 +239,66 @@ header .header-p .header-img img {
   margin-top: 60px;
 }
 
-.their-team {
-  background-image: url("");
+.their-team .their-main-div {
+  max-width: 1120px;
+  display: flex;
+  margin: 0 auto;
+  gap: 150px;
+}
+.their-team h2 {
+  font-size: 2.3em;
+  font-weight: 800;
+  max-width: 600px;
+}
+.their-team p {
+  max-width: 650px;
+  margin-top: 35px;
+}
+.their-team .profile {
+  gap: 20px;
+}
+.their-team .profile img {
+  width: 68px;
+}
+.their-team .profile h4 {
+  font-size: 1.3em;
+  margin-bottom: 7px;
+}
+.their-team .arrows {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+}
+.their-team .arrows img {
+  width: 48px;
+}
+.their-team .their-team-div {
+  padding: 180px 0;
+}
+.their-team .their-team-icon {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.their-team .their-team-icon .company-icon {
+  width: 200px;
+}
+.their-team .their-team-icon .view-case {
+  margin-top: 150px;
+  display: flex;
+}
+.their-team .their-team-icon .view-case img {
+  margin-right: 10px;
+}
+.their-team .their-team-icon .view-case h5 {
+  color: rgb(81, 53, 255);
+  text-decoration: underline;
+}
+
+.who {
+  background-color: #f6f6f6;
 }
 
 .growing {
