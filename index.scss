@@ -40,7 +40,7 @@ button {
 nav {
     background-color: $color-dark;
     background-image: url('https://www.cinnamon.agency/images/noise.png');
-    color: $color-light;
+    color: $color-gray;
     position: fixed;
     width: 100vw;
 
@@ -54,7 +54,7 @@ nav {
 
       a {
         text-decoration: none;
-        color: $color-light;
+        color: $color-gray;
         font-size: 1.5em;
         font-weight: 700;
       }
@@ -105,6 +105,7 @@ header {
         font-size: 4.5em;
         font-weight: 900;
         line-height: 1.4;
+        color: $color-gray;
     }
 
     .header-p {
@@ -130,7 +131,7 @@ header {
                 align-self: flex-start;
                 left: -30px;
                 text-decoration: none;
-                color: $color-light;
+                color: $color-gray;
                 transform-origin: 50px 50px;
                 transform: rotate(-90deg);
                 -webkit-transform: rotate(-90deg);

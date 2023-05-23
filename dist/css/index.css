@@ -20,7 +20,7 @@ button {
 nav {
   background-color: #121212;
   background-image: url("https://www.cinnamon.agency/images/noise.png");
-  color: #fff;
+  color: #cfcfcf;
   position: fixed;
   width: 100vw;
 }
@@ -34,7 +34,7 @@ nav .nav-bar {
 }
 nav .nav-bar a {
   text-decoration: none;
-  color: #fff;
+  color: #cfcfcf;
   font-size: 1.5em;
   font-weight: 700;
 }
@@ -78,6 +78,7 @@ header h1 {
   font-size: 4.5em;
   font-weight: 900;
   line-height: 1.4;
+  color: #cfcfcf;
 }
 header .header-p {
   display: flex;
@@ -101,7 +102,7 @@ header .header-p .see-p a {
   align-self: flex-start;
   left: -30px;
   text-decoration: none;
-  color: #fff;
+  color: #cfcfcf;
   transform-origin: 50px 50px;
   transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
